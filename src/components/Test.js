@@ -8,7 +8,7 @@ class Test extends React.Component{
   render () {
     return (
       <div className="shopping-list">
-        <h1>Test layout {this.props.name}</h1>
+        <h1>Test component {this.props.name}</h1>
       </div>
     )
   }

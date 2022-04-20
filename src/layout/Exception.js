@@ -1,18 +1,10 @@
-import React from 'react'
-
-class ExceptionLayout extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
-
-  render() {
-    return (
-      <div className='main-layout'>
-        <h1>Exceptions layout</h1>
-      </div>
-    )
-  }
+const ExceptionsLayout = ({ children }) => {
+  return (
+    <>
+      <h1>Exception layout</h1>
+      <div>{children}</div>
+    </>
+  )
 }
 
-export default ExceptionLayout
+export default ExceptionsLayout
